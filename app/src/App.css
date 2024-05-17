@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('../font/static/JosefinSans-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  h1 {
+    font-family: 'MyCustomFont', sans-serif;
+    font-size: 80px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: rgb(242, 227, 190);
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+ body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../picture/saturn.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  

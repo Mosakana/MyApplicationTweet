@@ -1,0 +1,85 @@
+/* PublicBoard component styles */
+
+.public-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .public-board h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+  }
+  
+  
+  .public-board p {
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .public-board form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .public-board label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .public-board input[type='text'],
+  .public-board input[type='email'],
+  .public-board input[type='password'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .public-board button[type='submit'] {
+    padding: 10px 20px;
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .public-board button[type='submit']:hover {
+    background-color: #006666;
+  }
+  
+  .public-board .error-message {
+    color: red;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .public-board .success-message {
+    color: green;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  @media (min-width: 768px) {
+    .public-board {
+      width: 50%;
+      margin: 50px auto;
+    }
+  }
+  
